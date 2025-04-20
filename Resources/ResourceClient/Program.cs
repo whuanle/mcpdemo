@@ -37,7 +37,7 @@ foreach (var resource in resources)
 
 var readmeResource = await client.ReadResourceAsync(resources.First().Uri);
 var textContent = readmeResource.Contents.First() as TextResourceContents;
-Console.WriteLine(Encoding.UTF8.GetString(Convert.FromBase64String(textContent.Text)));
+Console.WriteLine(textContent.Text);
 
 client.RegisterNotificationHandler("notifications/resource/updated", async (message, ctx) =>
 {
