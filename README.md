@@ -78,7 +78,7 @@ Transport 指传输处理消息发送和接收的底层机制，MCP 主要包含
 
 <br />
 
-以下是 MCP（Message Channel Protocol）协议中 `stdio`、`sse`、`streamable` 三者的优缺点和差异的简要说明：
+以下是 MCP（Model Context Protocol）协议中 `stdio`、`sse`、`streamable` 三者的优缺点和差异的简要说明：
 
 **stdio**
 
